@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11198BC024117A9A0080307F /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 11198BBF24117A9A0080307F /* PKHUD */; };
+		11198BC024117A9A0080307F /* PKHUD in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 11198BBF24117A9A0080307F /* PKHUD */; };
 		111C76B62412C90500368F08 /* SystemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C76B52412C90500368F08 /* SystemColor.swift */; };
 		1162D12C240D05F600647002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162D12B240D05F600647002 /* AppDelegate.swift */; };
 		1162D12E240D05F600647002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162D12D240D05F600647002 /* SceneDelegate.swift */; };
@@ -23,10 +23,10 @@
 		11672A1C24114922000B2466 /* PercentValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11672A1B24114922000B2466 /* PercentValueFormatter.swift */; };
 		11672A1E2411494F000B2466 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11672A1D2411494F000B2466 /* DayAxisValueFormatter.swift */; };
 		116EC0A82410DF48006E4559 /* RegionContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116EC0A72410DF48006E4559 /* RegionContainerController.swift */; };
-		1195F1A1241EC18B00FE718F /* CoronaData in Frameworks */ = {isa = PBXBuildFile; productRef = 1195F1A0241EC18B00FE718F /* CoronaData */; };
-		1195F1A5241EC1FB00FE718F /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 1195F1A4241EC1FB00FE718F /* Charts */; };
+		1195F1A1241EC18B00FE718F /* CoronaData in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 1195F1A0241EC18B00FE718F /* CoronaData */; };
+		1195F1A5241EC1FB00FE718F /* Charts in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 1195F1A4241EC1FB00FE718F /* Charts */; };
 		1195F1A7241EC22200FE718F /* CoronaData in Frameworks */ = {isa = PBXBuildFile; productRef = 1195F1A6241EC22200FE718F /* CoronaData */; };
-		11BF32AA24156AE500270130 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 11BF32A924156AE500270130 /* FloatingPanel */; };
+		11BF32AA24156AE500270130 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 11BF32A924156AE500270130 /* FloatingPanel */; };
 		11EB2C9D2413F7E9001769B2 /* CurrentStateChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB2C9C2413F7E9001769B2 /* CurrentStateChartView.swift */; };
 		11EB2C9F2413FFE1001769B2 /* HistoryChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB2C9E2413FFE1001769B2 /* HistoryChartView.swift */; };
 		11EB2CA1241400EF001769B2 /* TopCountriesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB2CA0241400EF001769B2 /* TopCountriesChartView.swift */; };
@@ -34,7 +34,7 @@
 		3447B4BD241E7790003914AF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B4BC241E7790003914AF /* App.swift */; };
 		344ED322241AC7AA004C4EA8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344ED321241AC7AA004C4EA8 /* NotificationCenter.framework */; };
 		344ED328241AC7AA004C4EA8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344ED326241AC7AA004C4EA8 /* MainInterface.storyboard */; };
-		344ED32C241AC7AA004C4EA8 /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 344ED31F241AC7AA004C4EA8 /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		344ED32C241AC7AA004C4EA8 /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 344ED31F241AC7AA004C4EA8 /* Widget.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		344ED333241ACCC9004C4EA8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344ED324241AC7AA004C4EA8 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -374,6 +374,7 @@
 /* Begin PBXTargetDependency section */
 		344ED32B241AC7AA004C4EA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 344ED31E241AC7AA004C4EA8 /* Widget */;
 			targetProxy = 344ED32A241AC7AA004C4EA8 /* PBXContainerItemProxy */;
 		};
